@@ -1,13 +1,18 @@
 $(function() {
     var d = new Date().getMonth() + 1
+    var icon_id = document.getElementById("icon")
     if (3 <= d && d <= 5) {
-        document.documentElement.style.setProperty("--season-color", "#a7e42e");
+        document.documentElement.style.setProperty("--season-color", "#a7e42e"); //テーマカラーを季節で変更
+        icon_id.href = "./images/hiron0413-icon-spring.png" //アイコンを季節で変更
     } else if (6 <= d && d <= 8) {
         document.documentElement.style.setProperty("--season-color", "#46cc3d");
+        icon_id.href = "./images/hiron0413-icon-summer.png"
     } else if (9 <= d && d <= 11) {
         document.documentElement.style.setProperty("--season-color", "#f28a22");
+        icon_id.href = "./images/hiron0413-icon-fall.png"
     } else {
         document.documentElement.style.setProperty("--season-color", "#add8d8");
+        icon_id.href = "./images/hiron0413-icon-winter.png"
     }
 
     var season_color = document.documentElement.style.getPropertyValue("--season-color");
