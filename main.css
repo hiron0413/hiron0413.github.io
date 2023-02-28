@@ -55,20 +55,17 @@ h3{
     margin: 0px 20px 0px 0px;
 }
 
-.link a svg{
-    width: 25px;
-    height: 25px;
-    fill: var(--season-color);  
+.link a svg, a img{
+    height: 24px;
+    fill: var(--dark);
+    opacity: 1;
+    transition: opacity .2s;
 }
 
-#scratch-link svg{
-    height: 25px;
-    width: 80px;
+.link a svg:hover, a img:hover{
+    opacity: 0.6;
 }
 
-#scratch-link svg g{
-    fill: var(--season-color);
-}
 /* 画像 */
 
 body{
