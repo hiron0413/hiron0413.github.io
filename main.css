@@ -133,6 +133,7 @@ footer{
     /*background-color: var(--season-color);
     /* 固定 */
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     position: absolute;
     top: 0px;
     position: fixed;
@@ -165,7 +166,7 @@ footer{
 
 #menu ul a li:hover{
     color: var(--season-color);
-    background-color: rgba(var(--season-color), 0.6);
+    /*background-color: rgba(var(--season-color), 0.6);*/
 }
 
 #profile{
