@@ -160,5 +160,11 @@
         "url": "https://hiron0413.github.io/CTE-Tool/",
         "image": "https://hiron0413.github.io/CTE-Tool/images/favicon.png",
         "tag": ["web"]
+    },
+    {
+        "name": "ハジキ / HAJIKI",
+        "url": "https://scratch.mit.edu/projects/845888051/",
+        "image": "https://cdn2.scratch.mit.edu/get_image/project/845888051_800x800.png",
+        "tag": ["scratch", "game"]
     }
 ]
